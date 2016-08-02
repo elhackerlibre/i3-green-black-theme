@@ -1,0 +1,60 @@
+! Fuentes:
+xterm*faceName: Dejavu Sans Mono Book
+xterm*faceSize:	8
+URxvt*font:     xft:Terminus:size=8
+
+! Configuración local
+XTerm*locale: 	true
+
+! Shell entrada por defecto...
+XTerm*loginshell: true
+
+! Enable bell urgent
+xterm*bellIsUrgent: true
+
+! scrollback...
+XTerm* savelines: 10000
+
+! Doble click selección de URL...
+XTerm*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
+
+! Geometra de ventana...
+xterm*geometry: 80x20
+
+
+! special
+xterm*foreground:   #777777
+xterm*background:   #111313
+xterm*cursorColor:  #91ba0d
+
+! black
+xterm*color0:       #202020
+xterm*color8:       #3A3A3A
+
+! red
+xterm*color1:       #585858
+xterm*color9:       #333333
+
+! green
+xterm*color2:       #91ba0d
+xterm*color10:      #7a9b0e
+
+! yellow
+xterm*color3:       #acacac
+xterm*color11:      #939393
+
+! blue
+xterm*color4:       #242424
+xterm*color12:      #191919
+
+! magenta
+xterm*color5:       #747474
+xterm*color13:      #5b5b5b
+
+! cyan
+xterm*color6:       #84b90b
+xterm*color14:      #627e09
+
+! white
+xterm*color7:       #bebebe
+xterm*color15:      #999999
